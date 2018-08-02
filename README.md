@@ -13,5 +13,11 @@
 ## Running Terraform
 
 ```
+> terraform init
 > env AWS_PROFILE=relativepath terraform apply
 ```
+
+## Resources
+
+* [Setting up a Cloudfront Distribution](https://www.terraform.io/docs/providers/aws/r/cloudfront_distribution.html)
+* [Heroku + DNSimple](https://github.com/hashicorp/terraform/blob/2487af19453a0d55a428fb17150f87b24170ccc1/examples/cross-provider/main.tf)
